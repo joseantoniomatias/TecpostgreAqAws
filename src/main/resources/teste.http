@@ -1,0 +1,13 @@
+### Criar um novo evento
+POST http://localhost:8080/api/event
+Content-Type: application/json
+
+{
+  "title": "Evento Teste",
+  "description": "Testando a conexão com o banco",
+  "date": 1738152000000,
+  "city": "Salvador",
+  "state": "BA",
+  "remote": false,
+  "eventUrl": "https://teste.com"
+}
